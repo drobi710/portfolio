@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.hero {
+  height: auto;
+  width: 100%;
+}
+
+.navigation {
+  background-color: white;
+  border-bottom: solid 2px;
+  color: black;
+}
+
+#navLink {
+  color: black;
+}
+
+#sayhello {
+  color: black;
+  background-color: #40e0da;
+  border: none;
+}
