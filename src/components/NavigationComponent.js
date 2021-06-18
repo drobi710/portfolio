@@ -33,11 +33,19 @@ const Navigation = (props) => {
           <Nav className="nav-fill w-100" navbar>
             <NavItem>
               <ButtonGroup>
-                <Button id="gitBtn">
+                <Button
+                  id="gitBtn"
+                  href="https://github.com/drobi710"
+                  target="blank"
+                >
                   <i class="fa fa-github fa-lg" />
                 </Button>
-                <Button id="liBtn">
-                  <i class="fa fa-linkedin fa-lg" />
+                <Button
+                  id="liBtn"
+                  href="https://www.linkedin.com/in/danielle-robitshek/"
+                  target="blank"
+                >
+                  <i href="linkedin.com" class="fa fa-linkedin fa-lg" />
                 </Button>
               </ButtonGroup>
             </NavItem>
