@@ -52,8 +52,37 @@
   color: black;
 }
 
+#navLink:hover {
+  color: #40e0da;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 #sayhello {
   color: black;
   background-color: #40e0da;
   border: none;
+}
+
+#sayhello:hover {
+  color: #40e0da;
+  background-color: black;
+}
+
+#gitBtn {
+  background-color: #40e0da;
+  font-size: 18px;
+  border: none;
+}
+
+#gitBtn:hover {
+  color: black;
+}
+
+#liBtn {
+  background-color: black;
+}
+
+#liBtn:hover {
+  color: #40e0da;
 }

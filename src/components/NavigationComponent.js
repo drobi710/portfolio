@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   Button,
+  ButtonGroup,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -23,9 +24,23 @@ const Navigation = (props) => {
   return (
     <div>
       <Navbar className="navigation" expand="md">
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler
+          id="toggler"
+          className="ml-auto navbar-light"
+          onClick={toggle}
+        />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="nav-fill w-100" navbar>
+            <NavItem>
+              <ButtonGroup>
+                <Button id="gitBtn">
+                  <i class="fa fa-github fa-lg" />
+                </Button>
+                <Button id="liBtn">
+                  <i class="fa fa-linkedin fa-lg" />
+                </Button>
+              </ButtonGroup>
+            </NavItem>
             <NavItem>
               <NavLink id="navLink" href="/">
                 HOME
@@ -33,7 +48,7 @@ const Navigation = (props) => {
             </NavItem>
             <NavItem>
               <NavLink id="navLink" href="/about/">
-                ABOUT
+                ABOUT ME
               </NavLink>
             </NavItem>
             <NavItem>
@@ -41,17 +56,6 @@ const Navigation = (props) => {
                 MY WORKS
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
             <NavItem>
               <Button id="sayhello" href="/">
                 SAY HELLO!
