@@ -25,8 +25,7 @@ const Navigation = (props) => {
     <div>
       <Navbar className="navigation" expand="md">
         <NavbarToggler
-          id="toggler"
-          className="ml-auto navbar-light"
+          className="ml-auto navbar-dark"
           onClick={toggle}
         />
         <Collapse isOpen={isOpen} navbar>

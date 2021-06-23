@@ -37,9 +37,30 @@
   }
 }
 
-.hero {
+.heroLG {
   height: auto;
   width: 100%;
+}
+
+.heroSM {
+  display: none;
+  height: auto;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroLG {
+    display: none;
+  }
+
+  .heroSM {
+    display: block;
+  }
+  nav.navbar {
+    background-color: #40e0da;
+    border-bottom: solid 2px;
+    color: black;
+  }
 }
 
 .navigation {
@@ -85,4 +106,8 @@
 
 #liBtn:hover {
   color: #40e0da;
+}
+
+#heroBG {
+  background-image: url(./assets/images/portfolio/heropageBG.png) cover;
 }

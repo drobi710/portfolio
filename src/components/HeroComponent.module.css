@@ -1,0 +1,40 @@
+body {
+  background-image: url("../assets/images/portfolio/heropageBG.png");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* width: 100vw; */
+}
+#girl {
+    max-height: 90vh;
+    position: absolute;
+    z-index: -1;
+}
+
+#textLG {
+margin-top: 25vh;
+}
+
+#textSM {
+  display: none;
+  width: 75vw;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("../assets/images/portfolio/heropageBGMobile.png");
+  }
+  #textLG {
+    display: none;
+  }
+
+  #textSM {
+    display: block;
+    position: relative;
+  }
+  #girl{
+      max-width: 100vw;
+  }
+}
