@@ -16,6 +16,8 @@ import {
   NavbarText,
 } from "reactstrap";
 
+import girl from "../assets/images/portfolio/cutegirllarge.png";
+
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,14 +26,11 @@ const Navigation = (props) => {
   return (
     <div>
       <Navbar className="navigation" expand="md">
-        <NavbarToggler
-          className="ml-auto navbar-dark"
-          onClick={toggle}
-        />
+        <NavbarToggler className="ml-auto navbar-dark" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="nav-fill w-100" navbar>
             <NavItem>
-              <ButtonGroup>
+              <ButtonGroup id="socialnav">
                 <Button
                   id="gitBtn"
                   href="https://github.com/drobi710"
@@ -49,17 +48,17 @@ const Navigation = (props) => {
               </ButtonGroup>
             </NavItem>
             <NavItem>
-              <NavLink id="navLink" href="/">
+              <NavLink href="/">
                 HOME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="navLink" href="/about/">
+              <NavLink href="/about/">
                 ABOUT ME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="navLink" href="/myworks/">
+              <NavLink href="/myworks/">
                 MY WORKS
               </NavLink>
             </NavItem>
@@ -68,6 +67,7 @@ const Navigation = (props) => {
                 SAY HELLO!
               </Button>
             </NavItem>
+            <NavbarBrand><img src={girl} id="navgirl" /></NavbarBrand>
           </Nav>
         </Collapse>
       </Navbar>

@@ -8,22 +8,26 @@ import cx from "classnames";
 import girl from "../assets/images/portfolio/cutegirllarge.png";
 import homeSM from "../assets/images/portfolio/mobileviewHP.png";
 import textSM from "../assets/images/portfolio/mobiletexthero.png";
-import textLG from "../assets/images/portfolio/textLG.png"
+import textLG from "../assets/images/portfolio/textLG.png";
 
 function Hero(props) {
   return (
     <>
-    <img src={textLG} 
-    id={styles.textLG}
-    className={cx(
-      globalStyles["w-75"],globalStyles["mr-auto"],
+      <img
+        src={textLG}
+        id={styles.textLG}
+        className={cx(
+          globalStyles["w-75"],
+          globalStyles["mr-auto"],
           globalStyles["ml-auto"],
           globalStyles["pt-5"]
         )}
       />
-    <img src={textSM} 
-    id={styles.textSM}
-    className={cx(
+      <img
+        src={textSM}
+        id={styles.textSM}
+        className={cx(
+          globalStyles["w-75"],
           globalStyles["mr-auto"],
           globalStyles["ml-auto"],
           globalStyles["pt-5"]

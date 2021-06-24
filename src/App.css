@@ -37,29 +37,56 @@
   }
 }
 
-.heroLG {
-  height: auto;
-  width: 100%;
-}
-
-.heroSM {
-  display: none;
-  height: auto;
-  width: 100vw;
-}
-
 @media only screen and (max-width: 768px) {
-  .heroLG {
-    display: none;
-  }
-
-  .heroSM {
-    display: block;
-  }
   nav.navbar {
     background-color: #40e0da;
-    border-bottom: solid 2px;
-    color: black;
+    border: none;
+  }
+  #socialnav {
+    margin-top: 50px;
+  }
+  /* .nav-link:hover {
+    color: white !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+  }
+
+  #sayhello {
+    color: white !important;
+    background-color: black !important;
+  }
+
+  #sayhello:hover {
+    color: #40e0da !important;
+  }
+
+  #gitBtn {
+    background-color: white !important;
+    color: black !important;
+    font-size: 18px !important;
+    border: none !important;
+  }
+
+  #gitBtn:hover {
+    color: black !important;
+  } */
+  #navgirl {
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    width: 70vw;
+    margin-left: -35vw;
+    bottom: 0;
+    /* overflow: hidden; */
+  }
+  .nav-item {
+    margin: 10px 0 !important;
+    z-index: 5;
+  }
+  .collapse {
+    background-color: white;
+    height: calc(100vh - 50px);
+    margin: 0 -16px -8px;
   }
 }
 
@@ -69,11 +96,15 @@
   color: black;
 }
 
-#navLink {
+.nav-link {
   color: black;
+background-color: white;
+width: fit-content;
+margin: auto;
+border-radius: 5px;
 }
 
-#navLink:hover {
+.nav-link:hover {
   color: #40e0da;
   font-weight: bold;
   text-decoration: underline;
@@ -107,7 +138,10 @@
 #liBtn:hover {
   color: #40e0da;
 }
-
-#heroBG {
-  background-image: url(./assets/images/portfolio/heropageBG.png) cover;
+#navgirl {
+  display: none;
 }
+.collapse {
+  background-color: white;
+}
+
