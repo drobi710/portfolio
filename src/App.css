@@ -42,10 +42,11 @@
     background-color: #40e0da;
     border: none;
   }
+
   #socialnav {
     margin-top: 50px;
   }
-  /* .nav-link:hover {
+  .nav-link:hover {
     color: white !important;
     font-weight: bold !important;
     text-decoration: underline !important;
@@ -54,6 +55,7 @@
   #sayhello {
     color: white !important;
     background-color: black !important;
+    margin-bottom: 50px;
   }
 
   #sayhello:hover {
@@ -68,8 +70,8 @@
   }
 
   #gitBtn:hover {
-    color: black !important;
-  } */
+    color: #40e0da !important;
+  }
   #navgirl {
     display: block !important;
     position: absolute;
@@ -77,17 +79,16 @@
     width: 70vw;
     margin-left: -35vw;
     bottom: 0;
-    /* overflow: hidden; */
   }
   .nav-item {
     margin: 10px 0 !important;
     z-index: 5;
   }
-  .collapse {
+  /* .collapse {
     background-color: white;
     height: calc(100vh - 50px);
     margin: 0 -16px -8px;
-  }
+  } */
 }
 
 .navigation {
@@ -98,10 +99,10 @@
 
 .nav-link {
   color: black;
-background-color: white;
+  margin: auto;
+/* background-color: white;
 width: fit-content;
-margin: auto;
-border-radius: 5px;
+border-radius: 5px; */
 }
 
 .nav-link:hover {
@@ -141,7 +142,9 @@ border-radius: 5px;
 #navgirl {
   display: none;
 }
-.collapse {
+/* .collapse {
   background-color: white;
+} */
+.fa-bars {
+  color: white;
 }
-

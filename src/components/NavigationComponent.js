@@ -26,7 +26,7 @@ const Navigation = (props) => {
   return (
     <div>
       <Navbar className="navigation" expand="md">
-        <NavbarToggler className="ml-auto navbar-dark" onClick={toggle} />
+        <NavbarToggler className="ml-auto navbar-dark" onClick={toggle}><i class="fa fa-bars fa-lg" /></NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="nav-fill w-100" navbar>
             <NavItem>
@@ -67,7 +67,7 @@ const Navigation = (props) => {
                 SAY HELLO!
               </Button>
             </NavItem>
-            <NavbarBrand><img src={girl} id="navgirl" /></NavbarBrand>
+            {/* <NavbarBrand><img src={girl} id="navgirl" /></NavbarBrand> */}
           </Nav>
         </Collapse>
       </Navbar>
