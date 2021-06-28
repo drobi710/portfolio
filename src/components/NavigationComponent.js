@@ -5,18 +5,11 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
 } from "reactstrap";
+import { NavLink } from "react-router-dom";
 
-import girl from "../assets/images/portfolio/cutegirllarge.png";
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,17 +41,17 @@ const Navigation = (props) => {
               </ButtonGroup>
             </NavItem>
             <NavItem>
-              <NavLink href="/">
+              <NavLink className="nav-link" to="/home">
                 HOME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/about/">
+              <NavLink className="nav-link" to="/about">
                 ABOUT ME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/myworks/">
+              <NavLink className="nav-link" to="/works">
                 MY WORKS
               </NavLink>
             </NavItem>

@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
 
 import styles from "./HeroComponent.module.css";
 import globalStyles from "../assets/global-styles/bootstrap.min.module.css";
 import cx from "classnames";
 
 import girl from "../assets/images/portfolio/cutegirllarge.png";
-import homeSM from "../assets/images/portfolio/mobileviewHP.png";
 import textSM from "../assets/images/portfolio/mobiletexthero.png";
 import textLG from "../assets/images/portfolio/textLG.png";
 
