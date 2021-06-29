@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import styles from "./HeroComponent.module.css";
 import globalStyles from "../assets/global-styles/bootstrap.min.module.css";
@@ -13,6 +13,7 @@ function Hero(props) {
     <>
       <img
         src={textLG}
+        alt="Hi I'm Danielle Robitshek, Full Stack Developer"
         id={styles.textLG}
         className={cx(
           globalStyles["w-75"],
@@ -23,6 +24,7 @@ function Hero(props) {
       />
       <img
         src={textSM}
+        alt="Hi I'm Danielle Robitshek, Full Stack Developer"
         id={styles.textSM}
         className={cx(
           globalStyles["w-75"],
@@ -33,6 +35,7 @@ function Hero(props) {
       />
       <img
         src={girl}
+        alt="sketch of a girl"
         id={styles.girl}
         className={cx(
           globalStyles["fixed-bottom"],

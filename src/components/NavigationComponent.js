@@ -41,17 +41,17 @@ const Navigation = (props) => {
               </ButtonGroup>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/home">
+              <NavLink exact activeClassName="activeHome" className="nav-link" to="/home">
                 HOME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/about">
+              <NavLink className="nav-link" activeClassName="active" to="/about">
                 ABOUT ME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/works">
+              <NavLink className="nav-link" activeClassName="active" to="/works">
                 MY WORKS
               </NavLink>
             </NavItem>

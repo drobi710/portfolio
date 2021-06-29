@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import Hero from './HeroComponent';
+
 import Navigation from './NavigationComponent';
 import Home from './HomeComponent';
-import { Switch, Route, Redirect } from "react-router-dom";
-import { PROJECTS} from '../shared/projects';
 import Works from './WorksComponent';
 import About from './AboutComponent';
+
+import { Switch, Route, Redirect } from "react-router-dom";
+import { PROJECTS } from '../shared/projects';
 
 
 class Main extends Component {
@@ -28,9 +29,9 @@ class Main extends Component {
             <div>
                 <Navigation />
                 <Switch>
-                    <Route path='/home' component={HomePage} />
+                    <Route exact path='/home' component={HomePage} />
                     {/* <Route exact path='projects' render={() => <Projects projects={this.state.projects} />} /> */}
-                    <Route path='/works' component={Works} />
+                    <Route path='/works' render={() => <Works projects={this.state.projects} />} />
                     <Route path='/about' component={About} />
                     <Redirect to='/home' />
                 </Switch>

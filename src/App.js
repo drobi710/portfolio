@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Navigation from "./components/NavigationComponent";
-import Hero from "./components/HeroComponent";
 import { BrowserRouter } from "react-router-dom";
 import Main from "./components/MainComponent";
 import "./App.css";

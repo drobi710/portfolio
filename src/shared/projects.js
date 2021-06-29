@@ -1,12 +1,17 @@
+import hRYRmobile from "../assets/images/portfolio/howareyoureallycellpreview.png";
+import hRYRcomp from "../assets/images/portfolio/howareyoucompPre.png"
+
 export const PROJECTS = [
     {
         id: 0,
         name: "How Are You, Really?",
-        imageM: "",
-        imageC: "",
+        imageM: hRYRmobile,
+        imageC: hRYRcomp,
         languages: "HTML, CSS, Sass, JavaScript, Bootstrap, and jQuery",
         headline: "Passion Portfolio project - website for a fictional company that sells monthly subscription boxes for mental health wellness.",
-        description: "I have a fervent passion towards mental health awareness. Many people struggle to understand their own self and it causes them to suppresses and limit their capabilities. We can learn how to transform negative thoughts into positive behaviors and live a more fulfilled life. A life where we have the confidence and strength to face challenges and live out our dreams."
+        description: "I have a fervent passion towards mental health awareness. Many people struggle to understand their own self and it causes them to suppresses and limit their capabilities. We can learn how to transform negative thoughts into positive behaviors and live a more fulfilled life. A life where we have the confidence and strength to face challenges and live out our dreams.",
+        git: "https://github.com/drobi710/How-are-you-really",
+        web: ""
     },
     {
         id: 1,
