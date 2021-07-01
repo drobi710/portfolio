@@ -7,6 +7,7 @@ import About from './AboutComponent';
 
 import { Switch, Route, Redirect } from "react-router-dom";
 import { PROJECTS } from '../shared/projects';
+import Soon from './SoonComponent';
 
 
 class Main extends Component {
@@ -33,6 +34,7 @@ class Main extends Component {
                     {/* <Route exact path='projects' render={() => <Projects projects={this.state.projects} />} /> */}
                     <Route path='/works' render={() => <Works projects={this.state.projects} />} />
                     <Route path='/about' component={About} />
+                    <Route path='/soon' component={Soon} />
                     <Redirect to='/home' />
                 </Switch>
             </div>

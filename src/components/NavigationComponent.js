@@ -36,7 +36,7 @@ const Navigation = (props) => {
                   href="https://www.linkedin.com/in/danielle-robitshek/"
                   target="blank"
                 >
-                  <i href="linkedin.com" class="fa fa-linkedin fa-lg" />
+                  <i class="fa fa-linkedin fa-lg" />
                 </Button>
               </ButtonGroup>
             </NavItem>

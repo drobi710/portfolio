@@ -38,12 +38,8 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #mobileImg {
-    width: 75% !important;
-  }
-
-  #compImg {
-    width: 100% !important;
+  #projectPic {
+    width: 90% !important;
   }
   
   .active {
