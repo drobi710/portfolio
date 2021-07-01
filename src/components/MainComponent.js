@@ -4,10 +4,11 @@ import Navigation from './NavigationComponent';
 import Home from './HomeComponent';
 import Works from './WorksComponent';
 import About from './AboutComponent';
+import Contact from './ContactComponent';
+import Soon from './SoonComponent';
 
 import { Switch, Route, Redirect } from "react-router-dom";
 import { PROJECTS } from '../shared/projects';
-import Soon from './SoonComponent';
 
 
 class Main extends Component {
@@ -35,6 +36,7 @@ class Main extends Component {
                     <Route path='/works' render={() => <Works projects={this.state.projects} />} />
                     <Route path='/about' component={About} />
                     <Route path='/soon' component={Soon} />
+                    <Route path='/contact' component={Contact} />
                     <Redirect to='/home' />
                 </Switch>
             </div>

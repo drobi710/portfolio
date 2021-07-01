@@ -1,5 +1,5 @@
 body {
-  background-image: url("../assets/images/portfolio/heropageBG.png");
+  background-image: url("../assets/images/heropageBG.png");
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url("../assets/images/portfolio/heropageBGMobile.png");
+    background-image: url("../assets/images/heropageBGMobile.png");
   }
   #textLG {
     display: none;

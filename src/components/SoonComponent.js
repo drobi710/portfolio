@@ -8,7 +8,7 @@ import {
   } from "reactstrap";
   import { NavLink } from 'react-router-dom';
 
-  import comingSoon from "../assets/images/portfolio/comingsoon.gif"
+  import comingSoon from "../assets/images/comingsoon.gif"
 
 function Soon(props) {
     return (

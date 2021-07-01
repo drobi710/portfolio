@@ -56,7 +56,7 @@ const Navigation = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <Button id="sayhello" href="/">
+              <Button id="sayhello" href="/contact">
                 SAY HELLO!
               </Button>
             </NavItem>

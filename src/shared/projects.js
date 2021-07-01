@@ -1,7 +1,7 @@
-import hryrScreens from "../assets/images/portfolio/hryrScreens.png";
-import portfolioScreens from "../assets/images/portfolio/portfolioScreens.png";
-import woof from "../assets/images/portfolio/woof.png";
-import campscreens from "../assets/images/portfolio/campscreens.png";
+import hryrScreens from "../assets/images/hryrScreens.png";
+import portfolioScreens from "../assets/images/portfolioScreens.png";
+import woof from "../assets/images/woof.png";
+import campscreens from "../assets/images/campscreens.png";
 
 
 export const PROJECTS = [

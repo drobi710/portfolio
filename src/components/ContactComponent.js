@@ -12,7 +12,7 @@ import {
 
 import MyPic from "../assets/images/linkedinimg.jpg";
 
-function About(props) {
+function Contact(props) {
   return (
     <Container>
       <Row>
@@ -26,7 +26,10 @@ function About(props) {
               alt="picture of Danielle Robitshek"
             />
             <CardBody>
-              <CardText className="">Hello World!</CardText>
+              <CardText className="">drobi710@gmail.com</CardText>
+              <CardText className="">714-316-8371</CardText>
+              <CardText className="">github.com/drobi710</CardText>
+              <CardText className="">linkedin.com/in/danielle-robitshek/</CardText>
             </CardBody>
           </Card>
         </Col>
@@ -35,4 +38,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default Contact;
