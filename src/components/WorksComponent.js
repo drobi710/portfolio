@@ -32,16 +32,16 @@ class Works extends Component {
               <CardText className="textContent mx-4">
                 {project.description}
               </CardText>
-              <ButtonGroup id="socialnav" className="my-3">
-                <Button id="gitProjBtn" href={project.git} target="blank">
+              {/* <ButtonGroup id="socialnav" className="my-3"> */}
+                <Button id="gitProjBtn" className="my-4 px-5" href={project.git} target="blank">
                   <i class="fa fa-github fa-lg px-5" />
                 </Button>
-                <NavLink to={project.web} target="blank">
+                {/* <NavLink to={project.web} target="blank">
                   <Button id="webProjBtn">
                     <i class="fa fa-desktop fa-lg px-5" />
                   </Button>
-                </NavLink>
-              </ButtonGroup>
+                </NavLink> */}
+              {/* </ButtonGroup> */}
             </CardBody>
           </Card>
         </div>

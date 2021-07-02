@@ -5,7 +5,8 @@
 
 
 @media only screen and (max-width: 768px) {
-  #projectPic {
+
+  #projectPic, #sayhey {
     width: 90% !important;
   }
   

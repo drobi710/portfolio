@@ -16,18 +16,19 @@ function Contact(props) {
     <Container>
       <Row>
         <Col>
-          <Card id="contactCard" className="w-75 align-items-center mr-auto ml-auto p-5 m-5">
+          <Card id="contactCard" className="align-items-center text-align-center mr-auto ml-auto p-3 my-4">
             <CardImg
               className="w-50"
+              id="sayhey"
               top
               src={sayhey}
               alt="picture of Danielle Robitshek"
             />
-            <CardBody>
-              <CardText className=""><a className="contactLink" href = "mailto: drobi710@gmail.com">drobi710@gmail.com</a></CardText>
-              <CardText className=""><a className="contactLink" href="tel:714-316-8371">714-316-8371</a></CardText>
-              <CardText className=""><a className="contactLink" href="https://github.com/drobi710" target="blank">My GitHub</a></CardText>
-              <CardText className=""><a className="contactLink" href="https://www.linkedin.com/in/danielle-robitshek/" target="blank">My LinkedIn</a></CardText>
+            <CardBody className="w-100">
+              <CardText className=""><a className="contactLink" href = "mailto: drobi710@gmail.com">Email: drobi710@gmail.com</a></CardText>
+              <CardText className=""><a className="contactLink" href="tel:714-316-8371">Phone: 714-316-8371</a></CardText>
+              <CardText className=""><a className="contactLink" href="https://github.com/drobi710" target="blank">GitHub: github.com/drobi710</a></CardText>
+              <CardText className=""><a className="contactLink" href="https://www.linkedin.com/in/danielle-robitshek/" target="blank">LinkedIn: linkedin.com/in/danielle-robitshek/</a></CardText>
             </CardBody>
           </Card>
         </Col>

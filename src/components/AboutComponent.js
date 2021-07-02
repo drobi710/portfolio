@@ -22,7 +22,7 @@ function About(props) {
         <Col>
           <Card
             id="aboutCard"
-            className="align-items-center mx-auto p-5 m-5"
+            className="align-items-center mx-auto p-3 m-3"
           >
             <CardImg
               className="w-50 rounded-circle"
@@ -30,13 +30,13 @@ function About(props) {
               src={mecode}
               alt="picture of Danielle Robitshek"
             />
-            <CardTitle className="textTitle m-4">Danielle Robitshek</CardTitle>
+            <CardTitle className="textTitle mb-0 mt-3">Danielle Robitshek</CardTitle>
             <CardBody>
-              <CardText id="aboutbio" className="mb-5 overflow-auto">I'm excited to be in this new chapter of my life, to follow my passion and create amazing things with amazing people. I've spent the last year diving deep into web and app development. First, as a side hobby, falling in love, now a determined aspiring Full Stack Developer. Attending the Nucamp Bootcamp, I journeyed through the basics of web development. Learning HTML, CSS, and introductory JavaScript, creating my first JavaScript game, my passion was sparked. From there, I continued to the Full Stack program, focusing on the MERN stack, where I collaborated with outstanding individuals on group projects and also created solo projects that I am proud of. Endlessly learning and building my skills more everyday and seeing what I am producing grow into projects I am proud to show ignites my soul. With plans to continue my Backend knowledge by attending the Nucamp Python course in August and aspirations of releasing my first App, the future is full of new adventures.
+              <CardText id="aboutbio" className="mb-3 overflow-auto">I'm excited to be in this new chapter of my life, to follow my passion and create amazing things with amazing people. I've spent the last year diving deep into web and app development. First, as a side hobby, falling in love, now a determined aspiring Full Stack Developer.
               <br/><br/>
               In my spare time I train wild horses and burros and advocate for their adoption. Looking a wild animal in the eye takes fearless determination and grit. Working with an untouched animal takes intuition, promotes compassion, understanding, tireless communication and knowing when to ask for help. The accomplishment I feel when I present an adopter an animal that I have molded from a wild, untouchable, and fearful being to a domestic partner is beyond rewarding.
 <br/><br/>
-              Another passion of mine is animal training/casting. My current horse that I trainer, Paladin, a former wild stallion has starred in the film Chaos Walking and in the HBO Series Watchman. I enjoy board games, especially deck-building games like Dominion and computer games. I have two doggos, Pancake and Bowie.
+              Another passion of mine is animal training/casting. My current horse that I trained, Paladin, a former wild stallion has starred in the film Chaos Walking and in the HBO Series Watchman. I enjoy board games, especially deck-building games like Dominion and computer games. I have two big doggos, Pancake and Bowie.
               </CardText>
             </CardBody>
             <Row className="justify-content-center">
