@@ -10,7 +10,6 @@ import {
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
-
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,7 +18,9 @@ const Navigation = (props) => {
   return (
     <div>
       <Navbar className="navigation" expand="md">
-        <NavbarToggler className="ml-auto navbar-dark" onClick={toggle}><i className={!isOpen ? "fa fa-bars fa-lg" : "fa fa-times fa-lg"} /></NavbarToggler>
+        <NavbarToggler className="ml-auto navbar-dark" onClick={toggle}>
+          <i className={!isOpen ? "fa fa-bars fa-lg" : "fa fa-times fa-lg"} />
+        </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="nav-fill w-100" navbar>
             <NavItem>
@@ -41,24 +42,39 @@ const Navigation = (props) => {
               </ButtonGroup>
             </NavItem>
             <NavItem>
-              <NavLink exact activeClassName="activeHome" className="nav-link" to="/home">
+              <NavLink
+                exact
+                activeClassName="activeHome"
+                className="nav-link"
+                to="/home"
+              >
                 HOME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" activeClassName="active" to="/about">
+              <NavLink
+                className="nav-link"
+                activeClassName="active"
+                to="/about"
+              >
                 ABOUT ME
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" activeClassName="active" to="/works">
+              <NavLink
+                className="nav-link"
+                activeClassName="active"
+                to="/works"
+              >
                 MY WORKS
               </NavLink>
             </NavItem>
             <NavItem>
-              <Button id="sayhello" href="/contact">
-                SAY HELLO!
-              </Button>
+              <NavLink
+                to="/contact"
+              >
+                <Button id="sayhello">SAY HELLO!</Button>
+              </NavLink>
             </NavItem>
             {/* <NavbarBrand><img src={girl} id="navgirl" /></NavbarBrand> */}
           </Nav>
