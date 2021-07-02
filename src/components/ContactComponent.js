@@ -7,7 +7,6 @@ import {
   CardImg,
   CardText,
   CardBody,
-  CardTitle,
 } from "reactstrap";
 
 import sayhey from "../assets/images/sayhey.gif";

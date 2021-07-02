@@ -33,10 +33,10 @@ class Main extends Component {
                 <Switch>
                     <Route exact path='/home' component={HomePage} />
                     {/* <Route exact path='projects' render={() => <Projects projects={this.state.projects} />} /> */}
-                    <Route path='/works' render={() => <Works projects={this.state.projects} />} />
-                    <Route path='/about' component={About} />
-                    <Route path='/soon' component={Soon} />
-                    <Route path='/contact' component={Contact} />
+                    <Route exact path='/works' render={() => <Works projects={this.state.projects} />} />
+                    <Route exact path='/about' component={About} />
+                    <Route exact path='/soon' component={Soon} />
+                    <Route exact path='/contact' component={Contact} />
                     <Redirect to='/home' />
                 </Switch>
             </div>

@@ -4,7 +4,6 @@ import {
     CardImg,
     CardText,
     CardBody,
-    CardTitle
   } from "reactstrap";
   import { NavLink } from 'react-router-dom';
 
