@@ -10,26 +10,25 @@ import {
   CardTitle,
 } from "reactstrap";
 
-import MyPic from "../assets/images/linkedinimg.jpg";
+import sayhey from "../assets/images/sayhey.gif";
 
 function Contact(props) {
   return (
     <Container>
       <Row>
         <Col>
-          <Card className="w-75 align-items-center mr-auto ml-auto p-5 m-5">
-            <CardTitle className="">Danielle Robitshek</CardTitle>
+          <Card id="contactCard" className="w-75 align-items-center mr-auto ml-auto p-5 m-5">
             <CardImg
-              className="w-50 rounded-circle"
+              className="w-50"
               top
-              src={MyPic}
+              src={sayhey}
               alt="picture of Danielle Robitshek"
             />
             <CardBody>
-              <CardText className="">drobi710@gmail.com</CardText>
-              <CardText className="">714-316-8371</CardText>
-              <CardText className="">github.com/drobi710</CardText>
-              <CardText className="">linkedin.com/in/danielle-robitshek/</CardText>
+              <CardText className=""><a className="contactLink" href = "mailto: drobi710@gmail.com">drobi710@gmail.com</a></CardText>
+              <CardText className=""><a className="contactLink" href="tel:714-316-8371">714-316-8371</a></CardText>
+              <CardText className=""><a className="contactLink" href="https://github.com/drobi710" target="blank">My GitHub</a></CardText>
+              <CardText className=""><a className="contactLink" href="https://www.linkedin.com/in/danielle-robitshek/" target="blank">My LinkedIn</a></CardText>
             </CardBody>
           </Card>
         </Col>
