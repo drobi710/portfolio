@@ -8,6 +8,7 @@ import {
   CardTitle,
   CardText,
 } from "reactstrap";
+import { NavLink } from "react-router-dom";
 
 class Works extends Component {
   render() {
@@ -35,9 +36,11 @@ class Works extends Component {
                 <Button id="gitProjBtn" href={project.git} target="blank">
                   <i class="fa fa-github fa-lg px-5" />
                 </Button>
-                <Button id="webProjBtn" href={project.web} target="blank">
-                  <i class="fa fa-desktop fa-lg px-5" />
-                </Button>
+                <NavLink to={project.web} target="blank">
+                  <Button id="webProjBtn">
+                    <i class="fa fa-desktop fa-lg px-5" />
+                  </Button>
+                </NavLink>
               </ButtonGroup>
             </CardBody>
           </Card>
