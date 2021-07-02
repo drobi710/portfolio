@@ -36,7 +36,7 @@ class Works extends Component {
                   <i class="fa fa-github fa-lg px-5" />
                 </Button>
                 <Button id="webProjBtn" href={project.web} target="blank">
-                  <i href="linkedin.com" class="fa fa-desktop fa-lg px-5" />
+                  <i class="fa fa-desktop fa-lg px-5" />
                 </Button>
               </ButtonGroup>
             </CardBody>
