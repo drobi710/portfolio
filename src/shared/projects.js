@@ -40,7 +40,7 @@ export const PROJECTS = [
     headline: "Group E-Commerce Project",
     description:
       "A camping supplies e-commerce site that I created with students from Nucamp Bootcamp. The experience with working in a team was extremely rewarding. I learned so much from this project and grew really close with my teammates",
-    git: "https://github.com/drobi710/How-are-you-really",
+    git: "https://github.com/drobi710/CAMPreact",
     web: "/soon",
   },
   {
@@ -52,7 +52,7 @@ export const PROJECTS = [
     headline:
       "App for matching your dogs needs with the right products - still building this project",
     description:
-      "Working on building an App, where you put in informatin about your dog (age, breed, size, hair type, medical conditions, etc. and the app recommends products based on your pets needs.",
+      "Working on building an App, where you put in informatin about your dog (age, breed, size, hair type, medical conditions, etc.) and the app recommends products based on your pets needs.",
     git: "",
     web: "/soon",
   },
