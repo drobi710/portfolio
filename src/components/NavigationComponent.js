@@ -25,20 +25,20 @@ const Navigation = (props) => {
           <Nav className="nav-fill w-100" navbar>
             <NavItem>
               <ButtonGroup id="socialnav">
+              <a href="https://github.com/drobi710" rel="noopener noreferrer" target="_blank">
                 <Button
                   id="gitBtn"
-                  href="https://github.com/drobi710"
-                  target="blank"
                 >
                   <i class="fa fa-github fa-lg" />
                 </Button>
+                </a>
+                <a href="https://www.linkedin.com/in/danielle-robitshek/" rel="noopener noreferrer" target="_blank">
                 <Button
                   id="liBtn"
-                  href="https://www.linkedin.com/in/danielle-robitshek/"
-                  target="blank"
                 >
                   <i class="fa fa-linkedin fa-lg" />
                 </Button>
+                </a>
               </ButtonGroup>
             </NavItem>
             <NavItem>

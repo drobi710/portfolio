@@ -3,28 +3,27 @@
   /* font-family: 'Tenor Sans', sans-serif; */
 }
 
-
 @media only screen and (max-width: 768px) {
-
-  #projectPic, #sayhey {
+  #projectPic,
+  #sayhey {
     width: 90% !important;
   }
-  
+
   .active {
     color: white !important;
     font-weight: bold !important;
     text-decoration: underline !important;
     background-color: transparent !important;
   }
-  
+
   nav.navbar {
     background-color: #40e0da;
     border: none;
   }
 
-  #socialnav {
+  /* #socialnav {
     margin-top: 50px;
-  }
+  } */
   .nav-link:hover {
     color: white !important;
     font-weight: bold !important;
@@ -79,7 +78,7 @@
 .nav-link {
   color: black;
   margin: auto;
-/* background-color: white;
+  /* background-color: white;
 width: fit-content;
 border-radius: 5px; */
 }
@@ -105,18 +104,23 @@ border-radius: 5px; */
   background-color: black;
 }
 
-#gitBtn, #gitProjBtn {
+#gitBtn,
+#gitProjBtn {
   background-color: #40e0da;
   font-size: 18px;
   border: none;
+  border-radius: 5px 0 0 5px;
 }
 
 #gitBtn:hover {
   color: black;
 }
 
-#liBtn, #webProjBtn {
+#liBtn,
+#webProjBtn {
   background-color: black;
+  border-radius: 0 5px 5px 0;
+  font-size: 17px;
 }
 
 #liBtn:hover {
@@ -161,7 +165,7 @@ border-radius: 5px; */
 }
 
 .contactLink {
-color: black;
+  color: black;
   font-weight: bold;
 }
 .contactLink:hover {
@@ -169,7 +173,8 @@ color: black;
   text-decoration: none;
 }
 
-#contactCard, #aboutCard {
+#contactCard,
+#aboutCard {
   border: solid 5px #40e0da;
 }
 
