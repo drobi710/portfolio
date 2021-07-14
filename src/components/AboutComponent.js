@@ -39,11 +39,12 @@ function About(props) {
                 Stack Developer.
                 <br />
                 <br />
-                I recently graduated with honors from Nucamp Coding Bootcamp.
-                I have completed certifications for Web Development Fundamentals:
-                HTML, CSS, and JavaScript, Front End Development: Bootstrap,
-                React, and React Native and Full Stack Development: Node.js,
-                MongoDB, and Express. I am looking for new opportunities to be a part of a team and chase after my dreams.
+                I recently graduated with honors from Nucamp Coding Bootcamp. I
+                have completed certifications for: Web Development Fundamentals
+                - HTML, CSS, and JavaScript; Front End Development - Bootstrap,
+                React, and React Native; Full Stack Development - Node.js,
+                MongoDB, and Express. I am looking for new opportunities to be a
+                part of a team and chase after my dreams.
                 <br />
                 <br />
                 In my spare time I train wild horses and burros and advocate for
