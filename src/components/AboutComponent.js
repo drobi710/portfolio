@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from "reactstrap";
 
-import mecode from "../assets/images/mecode.jpeg";
+import mepic from "../assets/images/linkedinimg.jpg";
 import midasTIP from "../assets/images/midasTIP.jpg";
 import fiona from "../assets/images/fiona.jpg";
 import pali from "../assets/images/paliJonas.jpeg";
@@ -24,7 +24,7 @@ function About(props) {
             <CardImg
               className="w-50 rounded-circle"
               top
-              src={mecode}
+              src={mepic}
               alt="picture of Danielle Robitshek"
             />
             <CardTitle className="textTitle mb-0 mt-3">
