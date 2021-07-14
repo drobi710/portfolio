@@ -35,8 +35,15 @@ function About(props) {
                 I'm excited to be in this new chapter of my life, to follow my
                 passion and create amazing things with amazing people. I've
                 spent the last year diving deep into web and app development.
-                First, as a side hobby, falling in love, now a determined
-                aspiring Full Stack Developer.
+                First, as a side hobby, falling in love, now a determined Full
+                Stack Developer.
+                <br />
+                <br />
+                I recently graduated with honors from Nucamp Coding Bootcamp.
+                I have completed certifications for Web Development Fundamentals:
+                HTML, CSS, and JavaScript, Front End Development: Bootstrap,
+                React, and React Native and Full Stack Development: Node.js,
+                MongoDB, and Express. I am looking for new opportunities to be a part of a team and chase after my dreams.
                 <br />
                 <br />
                 In my spare time I train wild horses and burros and advocate for
@@ -49,12 +56,9 @@ function About(props) {
                 domestic partner is beyond rewarding.
                 <br />
                 <br />
-                Another passion of mine is animal training/casting. My current
-                horse that I trained, Paladin, a former wild stallion has
+                Fun fact! My current mustang Paladin, a former wild stallion has
                 starred in the film Chaos Walking and in the HBO Series
-                Watchman. I enjoy board games, especially deck-building games
-                like Dominion and computer games. I have two big doggos, Pancake
-                and Bowie.
+                Watchman.
               </CardText>
             </CardBody>
             <Row className="justify-content-center">
@@ -68,7 +72,9 @@ function About(props) {
                     alt="picture of Danielle Robitshek and Nick Jonas on set "
                   />
                   <CardBody>
-                    <CardText className="">On the set of Chaos Walking with Paladin</CardText>
+                    <CardText className="">
+                      On the set of Chaos Walking with Paladin
+                    </CardText>
                   </CardBody>
                 </Card>
               </Col>
@@ -83,9 +89,7 @@ function About(props) {
                     alt="picture of Danielle Robitshek jumping a horse"
                   />
                   <CardBody>
-                    <CardText className="">
-                      Me and Fiona competing
-                    </CardText>
+                    <CardText className="">Me and Fiona competing</CardText>
                   </CardBody>
                 </Card>
               </Col>

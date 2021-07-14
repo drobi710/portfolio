@@ -34,12 +34,12 @@ class Works extends Component {
               </CardText>
               <ButtonGroup id="socialnav" className="my-3">
                 <a href={project.git} rel="noopener noreferrer" target="_blank">
-                  <Button id="gitProjBtn" className="my-4 px-4">
+                  <Button id="gitProjBtn" className="my-4 px-2">
                     <i class="fa fa-github fa-lg px-5" />
                   </Button>
                 </a>
                 <a href={project.web} rel="noopener noreferrer" target="_blank">
-                  <Button id="webProjBtn" className="my-4 px-4">
+                  <Button id="webProjBtn" className="my-4 px-2">
                     <i class="fa fa-desktop fa-lg px-5" />
                   </Button>
                 </a>
