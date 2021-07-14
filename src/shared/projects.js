@@ -53,7 +53,7 @@ export const PROJECTS = [
       "App for matching your dogs needs with the right products - still building this project",
     description:
       "Working on building an App, where you put in informatin about your dog (age, breed, size, hair type, medical conditions, etc.) and the app recommends products based on your pets needs.",
-    git: "",
+    git: "/soon",
     web: "/soon",
   },
 ];
