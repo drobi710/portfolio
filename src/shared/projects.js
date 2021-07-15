@@ -41,7 +41,7 @@ export const PROJECTS = [
     headline: "Group E-Commerce Project",
     description:
       "A camping supplies e-commerce site that I created with students from Nucamp Bootcamp. The experience with working in a team was extremely rewarding. I learned so much from this project and grew really close with my teammates",
-    git: "https://github.com/drobi710/CAMPreact",
+    git: "https://github.com/drobi710/CAMP",
     web: "https://campgroupproject.netlify.app/",
   },
   {
