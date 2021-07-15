@@ -33,20 +33,21 @@ function About(props) {
             <CardBody>
               <CardText id="aboutbio" className="mb-3 overflow-auto">
                 I am excited to be in this new chapter of my life, to follow my
-                passion and create amazing things with amazing people. I have a
-                passion for learning and am determined to constantly grow my
-                abilities to be an asset to my team. I have spent the last year
-                diving deep into web and app development. First, as a side
-                hobby, falling in love, now a determined Full Stack Developer.
+                passion and create amazing things with amazing people. I have
+                spent the last year diving deep into web and app development.
+                First, as a side hobby, falling in love, now a determined Full
+                Stack Developer. I have honed my ability to work through a
+                problem with determination, come up with a solution and
+                develiver results.
                 <br />
                 <br />
                 I recently graduated with honors from Nucamp Coding Bootcamp. I
                 have completed certifications for: Web Development Fundamentals
                 - HTML, CSS, and JavaScript; Front End Development - Bootstrap,
-                React, and React Native; Full Stack Development - Node.js,
-                MongoDB, and Express. I am looking for new opportunities to get
-                my foot in the door with some of the latest and greatest
-                technologies and to be part of a team to chase after my dreams.
+                React, and React Native; and Full Stack Development - Node.js,
+                MongoDB, and Express. I am looking for new opportunities to be
+                part of a team that supports leanering and is energized about
+                the latest technologies.
                 <br />
                 <br />
                 In my spare time I train wild horses and burros and advocate for
