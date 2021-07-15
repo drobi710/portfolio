@@ -46,18 +46,6 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    name: "Where's Paldo?",
-    image: wheresP,
-    imageC: "",
-    languages: "HTML, CSS, JavaScript, DOM Manipulation",
-    headline: "JavaScript game",
-    description:
-      "Where's Paldo? is a Javascript game that I made to help me learn Dom Manipulation. Find and 'boop' the extra pouty pup to proceed to the next level. Have fun!",
-    git: "https://github.com/drobi710/Where-s-Paldo-the-Pouty-Pup-",
-    web: "https://wherespaldo.netlify.app/",
-  },
-  {
-    id: 4,
     name: "WOOF",
     image: woof,
     imageC: "",
