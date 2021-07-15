@@ -2,6 +2,7 @@ import hryrScreens from "../assets/images/hryrScreens.png";
 import portfolioScreens from "../assets/images/portfolioScreens.png";
 import woof from "../assets/images/woof.png";
 import campscreens from "../assets/images/campscreens.png";
+import wheresP from "../assets/images/wherespaldo.png";
 
 export const PROJECTS = [
   {
@@ -45,6 +46,18 @@ export const PROJECTS = [
   },
   {
     id: 3,
+    name: "Where's Paldo?",
+    image: wheresP,
+    imageC: "",
+    languages: "HTML, CSS, JavaScript, DOM Manipulation",
+    headline: "JavaScript game",
+    description:
+      "Where's Paldo? is a Javascript game that I made to help me learn Dom Manipulation. Find and 'boop' the extra pouty pup to proceed to the next level. Have fun!",
+    git: "https://github.com/drobi710/Where-s-Paldo-the-Pouty-Pup-",
+    web: "https://wherespaldo.netlify.app/",
+  },
+  {
+    id: 4,
     name: "WOOF",
     image: woof,
     imageC: "",
