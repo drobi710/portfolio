@@ -32,19 +32,21 @@ function About(props) {
             </CardTitle>
             <CardBody>
               <CardText id="aboutbio" className="mb-3 overflow-auto">
-                I'm excited to be in this new chapter of my life, to follow my
-                passion and create amazing things with amazing people. I've
-                spent the last year diving deep into web and app development.
-                First, as a side hobby, falling in love, now a determined Full
-                Stack Developer.
+                I am excited to be in this new chapter of my life, to follow my
+                passion and create amazing things with amazing people. I have a
+                passion for learning and am determined to constantly grow my
+                abilities to be an asset to my team. I have spent the last year
+                diving deep into web and app development. First, as a side
+                hobby, falling in love, now a determined Full Stack Developer.
                 <br />
                 <br />
                 I recently graduated with honors from Nucamp Coding Bootcamp. I
                 have completed certifications for: Web Development Fundamentals
                 - HTML, CSS, and JavaScript; Front End Development - Bootstrap,
                 React, and React Native; Full Stack Development - Node.js,
-                MongoDB, and Express. I am looking for new opportunities to be a
-                part of a team and chase after my dreams.
+                MongoDB, and Express. I am looking for new opportunities to get
+                my foot in the door with some of the latest and greatest
+                technologies and to be part of a team to chase after my dreams.
                 <br />
                 <br />
                 In my spare time I train wild horses and burros and advocate for
