@@ -46,8 +46,8 @@ function About(props) {
                 - HTML, CSS, and JavaScript; Front End Development - Bootstrap,
                 React, and React Native; and Full Stack Development - Node.js,
                 MongoDB, and Express. I am looking for new opportunities to be
-                part of a team that supports leanering and is energized about
-                the latest technologies.
+                part of a team that supports learning and is energized about the
+                latest technologies.
                 <br />
                 <br />
                 In my spare time I train wild horses and burros and advocate for
