@@ -60,9 +60,15 @@ function About(props) {
                 domestic partner is beyond rewarding.
                 <br />
                 <br />
-                Fun fact! My current mustang Paladin, a former wild stallion has
+                Fun facts! My current mustang Paladin, a former wild stallion has
                 starred in the film Chaos Walking and in the HBO Series
                 Watchman.
+                <br />
+                I enjoy board and card games, my favorite being deck-building games like Dominion.
+                <br />
+                I love trying new authentic restaurants/food from different cultures.
+                <br />
+                I have two big doggos named Pancake and Bowie.
               </CardText>
             </CardBody>
             <Row className="justify-content-center">
