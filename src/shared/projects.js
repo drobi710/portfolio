@@ -51,7 +51,7 @@ export const PROJECTS = [
     imageC: "",
     languages: "Git, GitHub, Visual Studio Code, React Native",
     headline:
-      "App for matching your dogs needs with the right products - in the early stages of development, this is my current passion projectn",
+      "App for matching your dogs needs with the right products - in the early stages of development, this is my current passion project",
     description:
       "Working on building an App, where you put in informatin about your dog (age, breed, size, hair type, medical conditions, etc.) and the app recommends products based on your pets' needs.",
     git: "/soon",
