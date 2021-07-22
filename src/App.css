@@ -193,8 +193,9 @@ border-radius: 5px; */
 
 .sliderImage {
   width: auto;
-  height: 75vh;
-  max-width: 75vw;
+  height: auto;
+  max-width: 70vw;
+  max-height: 75vh;
 }
 
 .right-arrow {
