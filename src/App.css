@@ -182,3 +182,49 @@ border-radius: 5px; */
   height: 50vh;
   text-align: left;
 }
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderImage {
+  width: auto;
+  height: 75vh;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  font-size: 2rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  font-size: 2rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
