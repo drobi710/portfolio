@@ -11,7 +11,7 @@ export const PROJECTS = [
     image: portfolioScreens,
     imageC: "",
     languages:
-      "Git, Github, Yarn, Visual Studio Code, CSS, CSS Modules, JavaScript, Bootstrap, React, React Router, reactstrap, font-awesome",
+      "Git, Github, Yarn, Visual Studio Code, CSS, CSS Modules, JavaScript, Bootstrap, React, React Router, React Hooks, reactstrap, font-awesome",
     headline: "This is the website you are on right now. Yep, this one.",
     description:
       "I've created this portfolio website to showcase some of my favorite projects. Endlessly learning and building my skills more everyday, and seeing what I am producing grow into projects I am proud to show, ignites my soul!",

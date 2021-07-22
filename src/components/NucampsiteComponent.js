@@ -26,7 +26,7 @@ function Nucampsite(props) {
           <CardText className="textSub">
             Git, GitHub, Yarn, Visual Studio Code, React Native, React Native
             Elements, React Hooks, Redux, Modals, Form Validation, Stack Navigation, Drawer
-            Navigation Expo SDK, Gestures, Animatable, DateTimePicker, Alert API{" "}
+            Navigation, Expo SDK, Gestures, Animatable, DateTimePicker, Alert API{" "}
           </CardText>
           <CardText className="textContent mx-4">
             A Reactive Native App for campground sites with user authentication,
