@@ -2,7 +2,7 @@ import hryrScreens from "../assets/images/hryrScreens.png";
 import portfolioScreens from "../assets/images/portfolioScreens.png";
 import woof from "../assets/images/woof.png";
 import campscreens from "../assets/images/campscreens.png";
-import wheresP from "../assets/images/wherespaldo.png";
+import gymhopss from "../assets/images/gymhopss.png";
 
 export const PROJECTS = [
   {
@@ -20,16 +20,16 @@ export const PROJECTS = [
   },
   {
     id: 1,
-    name: "How Are You, Really?",
-    image: hryrScreens,
+    name: "GymHop",
+    image: gymhopss,
     imageC: "",
-    languages: "Git, Github, npm, Visual Studio Code, HTML, CSS, Sass, JavaScript, Bootstrap, and jQuery",
-    headline:
-      "Passion Portfolio project - website for a fictional company that sells monthly subscription boxes for mental health wellness.",
+    languages:
+      "Git, Github, yarn, Visual Studio Code, React Hooks, JavaScript, Figma, Jira, React Native, Payments, Gestures, Geolocation, Authentication",
+    headline: "Front End React/ React Native Developer",
     description:
-      "I have a fervent passion towards mental health awareness. Many people struggle to understand their own self and it causes them to suppress and limit their capabilities. We can learn how to transform negative thoughts into positive behaviors and live a more fulfilled life. A life where we have the confidence and strength to face challenges and live out our dreams. This is one of the first sites I made.",
-    git: "https://github.com/drobi710/How-are-you-really",
-    web: "/soon",
+      "Front End Developer for GymHop Mobile App that provides customers with a monthly gym membership that allows unlimited access to a network of gyms. Follow figma design and create reusable components to maximize efficiency. Complete Jira tickets in a timely manner. Daily stand-ups to keep track of progression and communicate any issues that have come up.",
+    git: "https://github.com/GymHop",
+    web: "https://gymhop.us/",
   },
   {
     id: 2,
@@ -46,6 +46,20 @@ export const PROJECTS = [
   },
   {
     id: 3,
+    name: "How Are You, Really?",
+    image: hryrScreens,
+    imageC: "",
+    languages:
+      "Git, Github, npm, Visual Studio Code, HTML, CSS, Sass, JavaScript, Bootstrap, and jQuery",
+    headline:
+      "Passion Portfolio project - website for a fictional company that sells monthly subscription boxes for mental health wellness.",
+    description:
+      "I have a fervent passion towards mental health awareness. Many people struggle to understand their own self and it causes them to suppress and limit their capabilities. We can learn how to transform negative thoughts into positive behaviors and live a more fulfilled life. A life where we have the confidence and strength to face challenges and live out our dreams. This is one of the first sites I made.",
+    git: "https://github.com/drobi710/How-are-you-really",
+    web: "/soon",
+  },
+  {
+    id: 4,
     name: "WOOF",
     image: woof,
     imageC: "",

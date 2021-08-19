@@ -1,16 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   Button,
   ButtonGroup,
   Card,
-  CardImg,
   CardBody,
   CardTitle,
   CardText,
 } from "reactstrap";
 import ImageSlider from "./ImageSliderComponent";
-import { SliderData } from './SliderData';
-import { NavLink } from "react-router-dom";
+import { SliderData } from "./SliderData";
 
 function Nucampsite(props) {
   return (
@@ -19,14 +17,15 @@ function Nucampsite(props) {
         <CardTitle className="mt-4 textTitle">Nucamping</CardTitle>
         <hr />
         <CardBody>
-        <ImageSlider slides={SliderData} />
+          <ImageSlider slides={SliderData} />
           <CardText className="mt-1 px-5 textSubB">
             Reactive Native App for campground sites
           </CardText>
           <CardText className="textSub">
             Git, GitHub, Yarn, Visual Studio Code, React Native, React Native
             Elements, Redux, Modals, Form Validation, Stack Navigation, Drawer
-            Navigation, Expo SDK, Gestures, Animatable, DateTimePicker, Alert API{" "}
+            Navigation, Expo SDK, Gestures, Animatable, DateTimePicker, Alert
+            API{" "}
           </CardText>
           <CardText className="textContent mx-4">
             A Reactive Native App for campground sites with user authentication,
